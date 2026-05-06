@@ -5,6 +5,9 @@
   "type": "module",
   "homepage": "https://younesidk.github.io/library-database-schema-creation/",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
